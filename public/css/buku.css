@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif; /* Menambahkan tanda kutip pada nama font */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px; /* Menambahkan ruang sekitar konten */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 10px; /* Menyesuaikan padding untuk lebih serasi dengan konten */
+    width: 100%;
+    margin: 0;
+}
+
+.book {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Meningkatkan bayangan untuk tampilan lebih halus */
+    margin: 10px;
+    padding: 15px; /* Menambahkan sedikit ruang di dalam .book */
+    width: 200px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.book img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto; /* Sedikit memperbesar margin atas dan bawah gambar */
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center;
+}

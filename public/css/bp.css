@@ -1,0 +1,66 @@
+/* Tampilan Judul Halaman */
+h1 {
+    color: #333; /* Ubah warna teks menjadi abu-abu tua */
+    font-size: 32px; /* Sedikit besar untuk menonjolkan judul */
+    text-align: center;
+    line-height: 1.6; /* Memperbaiki jarak antar baris */
+}
+
+/* Tampilan Tautan "tambah" */
+h2 a {
+    text-decoration: none;
+    background-color: #a369ff; /* Soft Pink */
+    color: #fff; /* Teks putih untuk kontras */
+    padding: 10px 16px; /* Sesuaikan padding */
+    border-radius: 8px; /* Agar tombol terlihat lebih terdefinisi */
+    display: inline-block; /* Mengatur lebar sesuai konten */
+    margin-top: 10px; /* Menambahkan sedikit jarak dari judul di atasnya */
+}
+
+/* Tampilan Daftar Penulis */
+.author-item {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 12px 0;
+    background-color: #F0F8FF; /* Soft Blue */
+}
+
+/* Tampilan Tautan "Lihat", "Edit", dan "Hapus" */
+.author-item a {
+    text-decoration: none;
+    margin-right: 8px; /* Sedikit ruang antar tautan */
+    color: #8A2BE2; /* Dark Purple */
+}
+
+.delete-form input[type="submit"] {
+    background-color: #FF6347; /* Tomato */
+    color: #fff;
+    padding: 10px 16px; /* Sesuaikan padding */
+    border: none;
+    border-radius: 8px; /* Agar tombol terlihat lebih terdefinisi */
+    cursor: pointer;
+}
+
+/* CSS untuk tampilan tabel */
+.author-list {
+    text-align: center;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.author-item {
+    display: table-row;
+}
+
+.author-item > div {
+    display: table-cell;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+/* CSS untuk membuat tulisan di tengah */
+h1 {
+    text-align: center;
+    line-height: 1.6; /* Sesuaikan jarak antar baris */
+}
